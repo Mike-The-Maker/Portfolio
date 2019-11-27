@@ -13,5 +13,5 @@ variables:
   buildConfiguration: 'Release'
 
 steps:
-- script: dotnet build Portfolio/src/Portfolio/Portfolio.csproj --configuration $(buildConfiguration)
+- script: dotnet build src/Portfolio/Portfolio.csproj --configuration $(buildConfiguration)
   displayName: 'dotnet build $(buildConfiguration)'
